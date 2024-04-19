@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles2.css">
+    <link rel="icon" href="/images/cactus.png">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <nav>
+                <ul class="nav-list">
+                    <h1 class="nav-heading">Cactus</h1>
+                    <li class="nav-links"><a href="/home">Home</a></li>
+                    <li class="nav-links"><a href="/products">Products</a></li>
+                    <li class="nav-links"><a href="/services">Services</a></li>
+                    <li class="nav-links"><a href="/pricing">Pricing</a></li>
+                    <li class="nav-links"><a href="/docs">Docs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><br>
+    <main>
+        <div class="form-div2">
+            <h1>Contact Us!</h1><br>
+        </div>
+        <div class="form-div">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ab1919c7-68c0-44b2-a2df-b6f9c1f0f679"><br>
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your email" required><br>
+                <textarea rows="4" name="message" placeholder="Type your message" required></textarea><br>
+                <div style="display: flex; justify-content: center; justify-items: center;"><div class="h-captcha" data-captcha="true"></div><br></div>
+                <div style="display: flex; justify-content: center; justify-items: center;"><button type="submit">Submit Form</button></div>
+            </form>
+            <script src="https://web3forms.com/client/script.js" async defer></script>
+        </div>
+    </main>
+</body>
+</html>
