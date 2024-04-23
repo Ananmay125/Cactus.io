@@ -2,6 +2,8 @@ body{
     padding: 0;
     margin: 0;
     background-color: #1B1B1B;
+    width: 100%;
+    height: fit-content;
 }
 
 *{
@@ -99,4 +101,79 @@ button[type="submit"]{
     border-radius: 15px;
     padding: 5px;
     margin-top: 10px;
+}
+
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 80px;
+    position: relative;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures elements stay on one line if container shrinks */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensures even distribution within container */
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    color: #ddd;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.footer-social a:hover {
+    color: #ddd;
+}
+
+.fab {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #1a1e22;
+    padding: 10px 0;
+    color: #ddd;
 }
