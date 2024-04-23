@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1B1B1B;
+    height: fit-content;
+}
+
+*{
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.main-heading{
+    margin-right: 50px;
+    float: left;
+}
+
+.nav-links{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    margin-top: 23px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-button{
+    width: 120px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding: 5px;
+    margin-top: 18px;
+}
+
+.background-link{
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 310px;
+    border-radius: 10px;
+    display: flex;;
+    justify-items: center;
+    justify-content: center;
+}
+
+.bar {
+    border: 5px double white;
+}
+
+.footer {
+    background-color: #141414;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.github-logo{
+    margin-top: 23px;
+    margin-right: 20px;
+}
+
+.connect{
+    justify-content: right;
+    display: flex;
+}

@@ -6,22 +6,26 @@ const PORT = 3000;
 app.use(express.static('public'));
 
 app.get('/', (req, res)=>{
-    res.status(200);
     res.sendFile(__dirname + "/index.html");
 });
 
 app.get('/home', (req, res)=>{
-    res.status(200);
     res.sendFile(__dirname + "/index.html");
 });
 
 app.get('/pricing', (req, res)=>{
-    res.status(200);
     res.sendFile(__dirname + "/pricing.html");
 });
 
+app.get('/about-us', (req, res)=>{
+    res.sendFile(__dirname + "/about-us.html");
+});
+
+app.get('/Terms and Conditions', (req, res)=>{
+    res.sendFile(__dirname + "/terms-condition.html");
+});
+
 app.get('/contact-us', (req, res)=>{
-    res.status(200);
     res.sendFile(__dirname + "/contact-us.html");
 });
 
