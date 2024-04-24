@@ -1,7 +1,10 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #1B1B1B;
+    background-image: url("/images/gay-ahh-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     height: fit-content;
 }
 
@@ -63,76 +66,37 @@ a {
 }
 
 .footer {
-    background-color: #212529;
-    color: #fff;
-    padding: 30px 0;
-    margin-top: 80px;
-    position: relative;
+    background-color: #141414;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
-.container {
-    max-width: 1000px;
+.footer-container {
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
-.footer-logo img {
-    width: 150px;
-    height: auto;
-}
-
-.footer-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-nav li {
-    display: inline-block;
+.footer-text {
+    font-size: 16px;
+    font-weight: 300;
     margin-right: 20px;
 }
 
-.footer-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+.github-logo{
+    margin-top: 23px;
+    margin-right: 20px;
 }
 
-.footer-nav a:hover {
-    color: #ddd;
-}
-
-.footer-social {
+.connect{
+    justify-content: right;
     display: flex;
-}
-
-.footer-social a {
-    color: #fff;
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-.footer-social a:hover {
-    color: #ddd;
-}
-
-.fab {
-    font-family: "Trebuchet MS", sans-serif;
-}
-
-.copyright {
-    text-align: center;
-    background-color: #1a1e22;
-    padding: 10px 0;
-    color: #ddd;
 }

@@ -138,6 +138,14 @@ a {
     color: black;
 }
 
+main{
+    height: 3000px;
+    background-image: url("/images/gay-ahh-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .check-us{
     background-color: lightcoral;
     border-radius: 5px;
@@ -178,4 +186,35 @@ header{
 
 .quote-text:hover{
     color: lightblue;
+}
+
+.js-div{
+    background-color: rgb(0, 191, 255);
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.js-div:hover{
+    background-color: darkblue;
+    .tools-heading{
+        color: white;
+    }
+    .tools-text{
+        color: white;
+    }
+}
+
+.tools-heading {
+    color: black;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.tools-text {
+    color: black;
+    margin-left: 20px;
+    margin-top: 0;
 }
