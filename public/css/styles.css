@@ -36,28 +36,42 @@ a {
     text-decoration: none;
 }
 
+.nav-list{
+    margin-top: 0;
+    padding: 16px;
+    margin-bottom: 0;
+}
+
 .contact-button{
     width: 120px;
     height: 35px;
     background-color: yellow;
     color: black;
     font-weight: bolder;
+    font-size: 15px;
     border: 0;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-left: 50px;
     padding: 5px;
-    margin-top: 18px;
+    margin-top: 16px;
+    transition: border-radius 0.4s;
 }
 
-.background-link{
-    background-color: rgba(255, 0, 0, 0.3);
+.contact-button:hover{
+    border-radius:30px;
+}
+
+/* .background-link{
+    background-color: turquoise;
+    opacity: 0.5;
     width: 310px;
     border-radius: 10px;
+    height: fit-content;
     display: flex;;
     justify-items: center;
     justify-content: center;
 }
-
+ */
 .bar {
     border: 5px double white;
 }
@@ -100,11 +114,11 @@ a {
 
 .hero-section{
     width: 100%;
-    background-image: url("/images/gay-ahh-1.jpg");
+    background-image: url("/images/gay-ahh-2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 437px;
+    height: 637px;
 }
 
 .gay-ahh-heading{
@@ -114,6 +128,7 @@ a {
     padding-left: 200px;
     color: black;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .gay-ahh-p{
@@ -133,5 +148,34 @@ a {
     font-weight: bolder;
     border: 0;
     margin-top: 0;
-    margin-left: 215px; 
+    margin-left: 215px;
+    transition: all;
+}
+
+.check-us:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+header{
+    background-image: url("/images/gay-ahh-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 637px;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #1B1B1B;
+}
+
+.quote-text{
+    color: white;
+}
+
+.quote-text:hover{
+    color: lightblue;
 }
