@@ -1,7 +1,10 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #1B1B1B;
+    background-image: url("/images/gay-ahh-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     height: fit-content;
 }
 
@@ -72,9 +75,6 @@ a {
     justify-content: center;
 }
  */
-.bar {
-    border: 5px double white;
-}
 
 .footer {
     background-color: #141414;
@@ -102,9 +102,16 @@ a {
     margin-right: 20px;
 }
 
-.github-logo{
-    margin-top: 23px;
+.logo{
+    margin-top: 15px;
     margin-right: 20px;
+    width: 30%;
+    height: 30px;
+}
+
+.github-text{
+    margin-top: 20px;
+    color: rgb(2, 41, 116);
 }
 
 .connect{
@@ -139,7 +146,7 @@ a {
 }
 
 main{
-    height: 3000px;
+    height: fit-content;
     background-image: url("/images/gay-ahh-2.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -217,4 +224,35 @@ header{
     color: black;
     margin-left: 20px;
     margin-top: 0;
+}
+
+.intrested{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.intrested-2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 130px;
+    margin-bottom: 10px;
+}
+
+.are-you{
+    margin-right: 15px;
+}
+
+.click-here{
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1219px) {
+    .js-div{
+        width: 93%;
+    }
 }

@@ -91,9 +91,16 @@ a {
     margin-right: 20px;
 }
 
-.github-logo{
-    margin-top: 23px;
+.logo{
+    margin-top: 15px;
     margin-right: 20px;
+    width: 30%;
+    height: 30px;
+}
+
+.github-text{
+    margin-top: 20px;
+    color: rgb(2, 41, 116);
 }
 
 .connect{
