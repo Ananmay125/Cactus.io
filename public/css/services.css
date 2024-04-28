@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/gay-ahh-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+}
+
+*{
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.main-heading{
+    margin-right: 50px;
+    float: left;
+}
+
+.nav-links{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    margin-top: 23px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list{
+    margin-top: 0;
+    padding: 16px;
+    margin-bottom: 0;
+}
+
+.contact-button{
+    width: 120px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 5px;
+    margin-top: 16px;
+    transition: border-radius 0.4s;
+}
+
+.contact-button:hover{
+    border-radius:30px;
+}
+
+.footer {
+    background-color: #141414;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 30%;
+    height: 30px;
+}
+
+#github-text{
+    margin-top: 20px;
+    color: rgb(2, 41, 116);
+}
+
+.connect{
+    justify-content: right;
+    display: flex;
+}
+
+.services-heading-div{
+    display: flex;
+    justify-content: center;
+}
+
+.services-heading{
+    font-size: 40px;
+}
+
+.list-1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.list-3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 80px;
+}
+
+.list-1-image{
+    width: 550px;
+    height: 300px;
+    margin-right: 60px;
+    background-color: #D9D9D9;
+}
+
+.list-para{
+    font-size: 15px;
+    white-space: wrap;
+    margin-top: 30px;
+    margin-right: 30px;
+}

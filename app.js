@@ -17,6 +17,10 @@ app.get('/pricing', (req, res)=>{
     res.sendFile(__dirname + "/pricing.html");
 });
 
+app.get('/services', (req, res)=>{
+    res.sendFile(__dirname + "/services.html");
+});
+
 app.get('/about-us', (req, res)=>{
     res.sendFile(__dirname + "/about-us.html");
 });
